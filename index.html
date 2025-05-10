@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcomics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catppuccinFrappe.css">
+</head>
+<body>
+    <div id="mainContent">
+        <div class="bg"></div>
+        <div class="page">
+            <h1 class="centerText">Webcomics</h2>
+                <p class="centerText">Dumb webcomics i've made</p>
+            <div class="flex">
+                <div class="quarterWidthPanel">
+                    <p>Untitled44</p>
+                    <button style="--buttonBg: var(--red);" onclick="
+                    openComic(
+                        'comics/untitled44/breakup.png',
+                        'Untitled44 - Breakup',
+                        'Untitled44 is a comic series about a wolf child that is forced to suffer.',
+                    )"
+                    >Breakup</button>
+                    <button style="--buttonBg: var(--red);" onclick="
+                    openComic(
+                        'comics/untitled44/friend.png',
+                        'Untitled44 - Friend',
+                        'Untitled44 is a comic series about a wolf child that is forced to suffer.<br>oh nooo, wolf child gets set on fire again',
+                    )"
+                    >Friend</button>
+                    <button style="--buttonBg: var(--red);" onclick="
+                    openComic(
+                        'comics/untitled44/pickaxe.png',
+                        'Untitled44 - Pickaxe',
+                        'Untitled44 is a comic series about a wolf child that is forced to suffer.',
+                    )"
+                    >Pickaxe</button>
+                    <button style="--buttonBg: var(--red);" onclick="
+                    openComic(
+                        'comics/untitled44/Pink.png',
+                        'Untitled44 - Pink',
+                        'Untitled44 is a comic series about a wolf child that is forced to suffer.',
+                    )"
+                    >Pink</button>
+                    <button style="--buttonBg: var(--red);" onclick="
+                    openComic(
+                        'comics/untitled44/shirt.png',
+                        'Untitled44 - Shirt',
+                        'Untitled44 is a comic series about a wolf child that is forced to suffer.',
+                    )"
+                    >Shirt</button>
+                    <button style="--buttonBg: var(--red);" onclick="
+                    openComic(
+                        'comics/untitled44/three.png',
+                        'Untitled44 - Three',
+                        'Untitled44 is a comic series about a wolf child that is forced to suffer.',
+                    )"
+                    >Three</button>
+                    <button style="--buttonBg: var(--red);" onclick="
+                    openComic(
+                        'comics/untitled44/tiny.png',
+                        'Untitled44 - Tiny',
+                        'Untitled44 is a comic series about a wolf child that is forced to suffer.',
+                    )"
+                    >Tiny</button>
+                    <button style="--buttonBg: var(--red);" onclick="
+                    openComic(
+                        'comics/untitled44/weezer.png',
+                        'Untitled44 - Weezer',
+                        'Untitled44 is a comic series about a wolf child that is forced to suffer.',
+                    )"
+                    >Weezer</button>
+                </div>
+                <div class="threeQuarterWidthPanel">
+                    <h2 class="center" id="comicName"></h2>
+                    <p id="description"></p>
+                    <img id="comicImage" src="" width="100%">
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    </div>
+</body>
+</html>
